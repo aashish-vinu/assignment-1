@@ -33,7 +33,7 @@ The Spark job (`scripts/clean_taxi.py`) performs the following cleaning steps:
 ```bash
 mkdir logs
 sudo chown -R 50000:0 logs
-sudo chmod -R 777 data/output/cleaned
+sudo chmod -R 777 data
 docker compose up -d --build
 ```
 
